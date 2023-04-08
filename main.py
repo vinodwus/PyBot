@@ -4,31 +4,6 @@ import pyshorteners
 import re
 
 
-# replace <YOUR_API_ID> and <YOUR_API_HASH> with your actual API ID and hash
-api_id = 27989413
-api_hash = 'bf7f2540d24231e3b8e4854683d6bb9a'
-
-# replace <YOUR_PHONE_NUMBER> with your actual phone number
-phone_number = '8005658035'
-
-# Define the AWS credentials and region
-aws_access_key_id = 'AKIAIETEZGQ4YORYMAKQ'
-aws_secret_access_key = 'ITWwo3UPZaibYZesTBompiLPyIMH7KCFeLgeQk3r'
-aws_region_name = 'us-east-1'
-
-# Define the AWS Product Advertising API client
-#paapi5 = boto3.client('paapi5', aws_access_key_id=aws_access_key_id, aws_secret_access_key=aws_secret_access_key, region_name=aws_region_name)
-
-
-
-# replace <YOUR_BOT_TOKEN> with your actual bot token
-bot_token = '6295391205:AAFUPKaed4Joiott4P0UKUaZeve3IG6lcxM'
-
-source_group_ids = [-1001388213936,-1001269898956, -1001682272025]
-destination_group_ids = [-1001320986887,-1001349913249]
-
-# replace <YOUR_AFFILIATE_TAG> with your actual affiliate tag
-affiliate_tag = 'vinodkumar016-21'
 
 # create a TelegramClient object with your API ID, hash, and phone number
 client = TelegramClient('send_message_bot', api_id, api_hash)
